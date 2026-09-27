@@ -4,9 +4,9 @@ pdf_path = "data/ML2.pdf"
 
 doc = fitz.open(pdf_path)
 
-print("=" * 60)
+print("=" * 80)
 print("PAGES CONTAINING EMBEDDED IMAGE OBJECTS")
-print("=" * 60)
+print("=" * 80)
 
 for page_number, page in enumerate(doc):
 
